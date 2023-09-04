@@ -122,7 +122,7 @@ main{
 main section{
     display: inline-block;
     width: 100%;
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 hr{
@@ -197,7 +197,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px;
+    padding: 2rem 1.5rem;
     color: black;
     background-color: var(--background-card);
     border-radius: 12px;
@@ -285,7 +285,7 @@ hr{
     max-width: 450px;
     display: flex;
     flex-direction: column;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     background-color: var(--background-card);
     border-radius: 1.2rem;
     color: black;
@@ -376,19 +376,18 @@ hr{
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    align-items: center;
+    align-items: normal;
     gap: 2rem;
 }
 
 .project{
-    width: 100%;
-    max-width: 450px;
+    width: 90%;
     height: auto;
     display: flex;
     flex-flow: wrap column;
     background-color: var(--background-card);
     border-radius: 1.2rem;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     color: black;
     gap: 2rem;
 }
@@ -399,11 +398,10 @@ hr{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 0.8rem;
 }
 
 .project-title{
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -429,7 +427,7 @@ hr{
 }
 
 .project-links{
-    width:25%;
+    width:20%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
