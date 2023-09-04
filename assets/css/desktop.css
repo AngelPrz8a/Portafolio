@@ -1,0 +1,14 @@
+/*ESTUDIOS*/
+
+.studies-cards-container{
+    align-items: normal;
+}
+
+.study-card{
+    max-width: 45%;
+    justify-content: space-evenly;
+}
+
+.study-head{
+    width: 60%;
+}
