@@ -49,7 +49,7 @@
 }
 
 .project-title{
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .project-footer{
