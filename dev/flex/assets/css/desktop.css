@@ -1,4 +1,10 @@
+:root{
+    /*Text Size*/
+    --subtitle:25px;
+}
+
 /*SOBRE MI*/
+
 .about{
     display: flex;
     flex-flow: wrap row;
@@ -15,31 +21,30 @@
 
 /*ESTUDIOS*/
 
-.studies-cards-container{
-    align-items: normal;
-}
-
 .study-card{
-    max-width: 45%;
-    justify-content: space-evenly;
+    max-width: 400px;
 }
 
-.study-head{
-    width: 60%;
-}
 
 /*CURSO*/
 
-.curse{
-    max-width:350px;
+.curse-card{
+    max-width:400px;
 }
 
-.curse-head{
-    width: 80%;
-}
 
 /*PROYECTO*/
 
-.project{
-    max-width: 48%;
+.project-card{
+    max-width: 400px;
+}
+
+.project-footer{
+    flex-direction: column;
+}
+
+.project-footer-head,
+.project-partners{
+    width: 100%;
+    align-items: center;
 }

@@ -1,3 +1,9 @@
+:root{
+    /*Text Size*/
+    --title:35px;
+    --subtitle:22px;
+    --normal:16px;
+}
 
 main section{
     padding-left:40px;
@@ -6,27 +12,19 @@ main section{
 
 /*Estudios*/
 
+.studies-cards-container{
+    align-items: normal;
+}
+
 .study-card{
-    max-width: 550px;
+    justify-content: space-around;
+    max-width: 45%;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.study-header{
-    flex-direction: row;
-}
-
-.study-head{
-    width: 70%;
-}
-
 .study-details{
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.study-body{
-    width: 100%;
+    text-align: center;
 }
 
 /*CURSO*/
@@ -36,10 +34,15 @@ main section{
     align-items: normal;
 }
 
-.curse{
+.curse-card{
     padding: 1.5rem 1.5rem;
     max-width:45%;
     flex-direction: row;
+}
+
+.curse-head,
+.curse-body{
+    width: 45%;
 }
 
 .curse-head{
@@ -51,7 +54,7 @@ main section{
 
 /*PROYECTO*/
 
-.project{
+.project-card{
     justify-content: space-around;
     max-width: 600px;
     padding-left: 2.5rem;
