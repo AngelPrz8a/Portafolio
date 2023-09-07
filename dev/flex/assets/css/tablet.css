@@ -1,0 +1,81 @@
+
+main section{
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+/*Estudios*/
+
+.study-card{
+    max-width: 550px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.study-header{
+    flex-direction: row;
+}
+
+.study-head{
+    width: 70%;
+}
+
+.study-details{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.study-body{
+    width: 100%;
+}
+
+/*CURSO*/
+
+.curses-cards-container{
+    flex-direction: row;
+    align-items: normal;
+}
+
+.curse{
+    padding: 1.5rem 1.5rem;
+    max-width:45%;
+    flex-direction: row;
+}
+
+.curse-head{
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+/*PROYECTO*/
+
+.project{
+    justify-content: space-around;
+    max-width: 600px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.project-title{
+    justify-content: space-around;
+}
+
+.project-footer{
+    flex-direction: row;
+}
+
+.project-footer-head,
+.project-partners{
+    width: 50%;
+    align-items: center;
+}
+
+.partners-container{
+    margin: auto ;
+}
+
+.project-tools-container{
+    width: 100%;
+}
