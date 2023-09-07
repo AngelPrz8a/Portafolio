@@ -13,7 +13,7 @@
     --very-small:10px;
     /*Circle Size*/
     --circle-big:40px;
-    --circle-medium:25px;
+    --circle-medium:28px;
     --circle-small:23px;
     /*Fonts*/
     --serif:'Times New Roman', Times, serif;
@@ -439,6 +439,7 @@ img{
 
 .project-span{
     display: inline-block;
+    align-self: flex-start;
     text-align: left;
     font-size: var(--small);
     padding-bottom: 0.5rem;
